@@ -1,0 +1,87 @@
+{
+    "total": 51669,
+    "limit": 2,
+    "skip": 0,
+    "data": [
+        {
+            "id": 43900,
+            "name": "Duracell - AAA Batteries (4-Pack)",
+            "type": "HardGood",
+            "price": 5.49,
+            "upc": "041333424019",
+            "shipping": 0,
+            "manufacturer": "Duracell",
+            "model": "MN2400B4Z",
+            "url": "http://www.bestbuy.com/site/duracell-aaa-batteries-4-pack/43900.p?id=1051384074145&skuId=43900&cmp=RMXCC",
+            "image": "http://img.bbystatic.com/BestBuy_US/images/products/4390/43900_sa.jpg",
+            "createdAt": "2016-11-17T17:58:03.298Z",
+            "updatedAt": "2016-11-17T17:58:03.298Z",
+            "categories": [
+                {
+                    "id": "abcat0208002",
+                    "name": "Alkaline Batteries",
+                    "createdAt": "2016-11-17T17:57:04.285Z",
+                    "updatedAt": "2016-11-17T17:57:04.285Z"
+                },
+                {
+                    "id": "pcmcat248700050021",
+                    "name": "Housewares",
+                    "createdAt": "2016-11-17T17:57:05.399Z",
+                    "updatedAt": "2016-11-17T17:57:05.399Z"
+                },
+                {
+                    "id": "pcmcat303600050001",
+                    "name": "Household Batteries",
+                    "createdAt": "2016-11-17T17:57:04.285Z",
+                    "updatedAt": "2016-11-17T17:57:04.285Z"
+                },
+                {
+                    "id": "pcmcat312300050015",
+                    "name": "Connected Home & Housewares",
+                    "createdAt": "2016-11-17T17:57:04.285Z",
+                    "updatedAt": "2016-11-17T17:57:04.285Z"
+                }
+            ]
+        },
+        {
+            "id": 48530,
+            "name": "Duracell - AA 1.5V CopperTop Batteries (4-Pack)",
+            "type": "HardGood",
+            "price": 5.49,
+            "upc": "041333415017",
+            "shipping": 0,
+            "manufacturer": "Duracell",
+            "model": "MN1500B4Z",
+            "url": "http://www.bestbuy.com/site/duracell-aa-1-5v-coppertop-batteries-4-pack/48530.p?id=1099385268988&skuId=48530&cmp=RMXCC",
+            "image": "http://img.bbystatic.com/BestBuy_US/images/products/4853/48530_sa.jpg",
+            "createdAt": "2016-11-17T17:58:03.298Z",
+            "updatedAt": "2016-11-17T17:58:03.298Z",
+            "categories": [
+                {
+                    "id": "abcat0208002",
+                    "name": "Alkaline Batteries",
+                    "createdAt": "2016-11-17T17:57:04.285Z",
+                    "updatedAt": "2016-11-17T17:57:04.285Z"
+                },
+                {
+                    "id": "pcmcat248700050021",
+                    "name": "Housewares",
+                    "createdAt": "2016-11-17T17:57:05.399Z",
+                    "updatedAt": "2016-11-17T17:57:05.399Z"
+                },
+                {
+                    "id": "pcmcat303600050001",
+                    "name": "Household Batteries",
+                    "createdAt": "2016-11-17T17:57:04.285Z",
+                    "updatedAt": "2016-11-17T17:57:04.285Z"
+                },
+                {
+                    "id": "pcmcat312300050015",
+                    "name": "Connected Home & Housewares",
+                    "createdAt": "2016-11-17T17:57:04.285Z",
+                    "updatedAt": "2016-11-17T17:57:04.285Z"
+                }
+            ]
+        }
+    ]
+}

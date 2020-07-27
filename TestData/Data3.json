@@ -1,0 +1,22 @@
+{
+	"name": "TiagoV2",
+	"type": "Hatchback",
+	"upc": "12345677",
+	"price": 522399.99,
+	"shipping": 0,
+	"manufacturer": "TATA",
+	"description": "This is a placeholder request for creating a new product.",
+	"model": "TIAGO20V2",
+	"categories": [
+                {
+                    
+                   "name": "Alkaline Batteries"
+                    
+                },
+                {
+                   
+                    "name": "Housewares"
+                    
+                }
+               ]
+}

@@ -1,0 +1,10 @@
+{
+	"name": "Seiara",
+	"type": "Suv",
+	"upc": "12345677",
+	"price": 12399.99,
+	"shipping": 0,
+	"manufacturer": "TATA",
+	"description": "This is a placeholder request for creating a new product.",
+	"model": "Siara2019V2"
+}
