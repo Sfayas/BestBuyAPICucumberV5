@@ -1,13 +1,14 @@
 package pojo;
 
 import java.util.List;
+@lombok.Data
 
 public class ResponsePayLoad {
 	
 	private int total,limit,skip;
 	List<Data> data;
 	
-	public int getTotal() {
+	/*public int getTotal() {
 		return total;
 	}
 	public void setTotal(int total) {
@@ -30,6 +31,6 @@ public class ResponsePayLoad {
 	}
 	public void setData(List<Data> data) {
 		this.data = data;
-	}
+	}*/
 	
 }

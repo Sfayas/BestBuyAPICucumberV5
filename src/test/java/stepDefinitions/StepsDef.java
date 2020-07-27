@@ -15,6 +15,7 @@ import groovy.xml.MarkupBuilder;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import junit.framework.Assert;
+import pojo.Categories;
 import pojo.Data;
 import pojo.ResponsePayLoad;
 import resources.Base;
@@ -66,8 +67,11 @@ public class StepsDef extends Base{
 		ScenarioName.createNode(new GherkinKeyword("Then"),"limit should be given limit");
 		respPayload =response.getBody().as(ResponsePayLoad.class);
 		System.out.println("Limit is "+respPayload.getLimit());
-		//Assert.assertEquals(Integer.parseInt(DataSheet.get("SearchLimit")), respPayload.getLimit());
-		Assert.assertEquals(50, respPayload.getLimit());
+		Assert.assertEquals(Integer.parseInt(DataSheet.get("SearchLimit")), respPayload.getLimit());
+		List<Data> data = respPayload.getData();
+		
+		List<Categories> category = data.get(0).getCategories();
+		System.out.println("1 st Category  "+ category.get(0).getName());
 	}
 	
 	@Then("^verify system returns only selected columns$")
@@ -81,7 +85,8 @@ public class StepsDef extends Base{
 		List<Data> data = respPayload.getData();
 		
 		Assert.assertTrue(!data.get(0).getManufacturer().isEmpty());
-		
+		System.out.println("1 st Manufacturer "+ data.get(0).getManufacturer());
+		 
 		
 	}
 

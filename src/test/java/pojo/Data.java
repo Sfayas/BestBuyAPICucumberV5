@@ -1,7 +1,7 @@
 package pojo;
 
 import java.util.List;
-
+@lombok.Data
 public class Data {
 	private int id;
 	private String name,type,price,upc,shipping,description,manufacturer;
@@ -9,7 +9,7 @@ public class Data {
 	List<Categories> categories;
 	
 	
-	public int getId() {
+	/*public int getId() {
 		return id;
 	}
 	public void setId(int id) {
@@ -92,7 +92,7 @@ public class Data {
 	}
 	public void setCategories(List<Categories> categories) {
 		this.categories = categories;
-	}
+	}*/
 	
 
 }

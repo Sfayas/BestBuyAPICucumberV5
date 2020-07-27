@@ -1,5 +1,8 @@
 package pojo;
 
+import java.util.List;
+
+@lombok.Data
 public class Categories {
 	
 	private String id;
@@ -7,7 +10,7 @@ public class Categories {
 	
 	
 	
-	public String getId() {
+	/*public String getId() {
 		return id;
 	}
 	public void setId(String id) {
@@ -30,7 +33,7 @@ public class Categories {
 	}
 	public void setUpdatedAt(String updatedAt) {
 		this.updatedAt = updatedAt;
-	}
+	}*/
 	
 	
 
