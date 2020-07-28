@@ -1,7 +1,9 @@
 package pojo;
 
 import java.util.List;
-
+/*
+ * Introducing Lambok
+ */
 @lombok.Data
 public class Categories {
 	
